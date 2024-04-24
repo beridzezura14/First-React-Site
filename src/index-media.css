@@ -1,0 +1,29 @@
+@media(max-width: 1100px){
+    .header, .hero, .skill-menu{
+        max-width: 90%;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .navbar{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .hero-text h1{
+        width: 100%;
+    }
+    .para{
+        width: 100%;
+    }
+    button{
+        margin-bottom: 4rem;
+    }
+    .hero-img{
+        width: 200px;
+    }
+    .para-skill{
+        width: 100%;
+    }
+}

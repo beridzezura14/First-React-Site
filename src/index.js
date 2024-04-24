@@ -38,36 +38,35 @@ const skillData = [
   {
     photoName: git,
     name: "Git",
-    details: "Cascading Style Sheets (CSS) — a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML",
+    details: "Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers",
     projects: 18,
     percentage: 70,
   },
   {
     photoName: js,
     name: "Javascript",
-    details: "Cascading Style Sheets (CSS) — a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML",
+    details: "JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript",
     projects: 10,
     percentage: 25,
   },
   {
     photoName: react,
     name: "React",
-    details: "Cascading Style Sheets (CSS) — a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML",
+    details: "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta",
     projects: 1,
     percentage: 5,
   },
 ]
-
+// start rendered website
 function App(){
   return(
-    <div>
+    <>
       <Header />
       <Hero />
       <SkillMenu />
-    </div>
+    </>
   )
 }
-
 function Header(){
   return(
     <div className='header'>
@@ -106,7 +105,6 @@ function SkillMenu(){
     </div>
   )
 }
-
 function Skill(props){
   return(
     <div className='skill-item'>
